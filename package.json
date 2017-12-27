@@ -1,0 +1,10 @@
+{
+  "name": "typeface-mplus",
+  "version": "0.1.063",
+  "main": "index.css",
+  "description": "M+ FONTS",
+  "repository": "https://github.com/kaz/typeface-mplus",
+  "devDependencies": {
+    "clean-css": "^4.1.9"
+  }
+}

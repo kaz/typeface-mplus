@@ -1,0 +1,16 @@
+#!/usr/bin/env fontforge -script
+
+types = Array(4)
+types[0] = "ttf"
+types[1] = "eot"
+types[2] = "woff"
+types[3] = "woff2"
+
+Open("../../mplus/" + $1)
+
+t = -1
+while ( ++t < SizeOf(types) )
+	Generate("fonts/" + $1:r + "." + types[t])
+endloop
+
+Close()
